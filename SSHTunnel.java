@@ -25,7 +25,7 @@ public class SSHTunnel {
      * Constructeur permettant la connexion à un serveur via un double tunnel
      * SSH
          *
-         * @param username Nom d'utilisateur ECE
+     * @param username Nom d'utilisateur ECE
      * @param password Mot de passe ECE
      * @param firstHost Premier hôte avec lequel il faut établir un tunnel SSH
      * @param secondHost Second hôte avec lequel il faut établir un tunnel SSH

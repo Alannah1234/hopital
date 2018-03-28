@@ -166,7 +166,8 @@ public class Connexion {
      * @return 
      * @throws java.sql.SQLException
      */
-    public ArrayList remplirChampsRequete(String requete) throws SQLException {
+    public ArrayList remplirChampsRequete(String requete) throws SQLException
+    {
         // récupération de l'ordre de la requete
         rset = stmt.executeQuery(requete);
 
@@ -206,7 +207,8 @@ public class Connexion {
      * @param requeteMaj
      * @throws java.sql.SQLException
      */
-    public void executeUpdate(String requeteMaj) throws SQLException {
+    public void executeUpdate(String requeteMaj) throws SQLException
+    {
         stmt.executeUpdate(requeteMaj);
     }
 }

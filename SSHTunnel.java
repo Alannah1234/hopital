@@ -6,7 +6,7 @@ import com.jcraft.jsch.*;
  * Etablit une connexion au serveur de la base de données via un tunnel SSH
  *
  * Date: 23/03/2014 Time: 13:30
- *
+ *      
  * @author pieraggi
  */
 public class SSHTunnel {

@@ -5,6 +5,6 @@ public class Malade extends Element
     nom varchar (12) not null,
     prenom varchar (12) not null,
     adresse varchar (40),
-    tel char (14),
+   // tel char (14),
     mutuelle varchar (6),
 }

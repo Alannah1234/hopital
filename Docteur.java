@@ -1,5 +1,8 @@
 public class Docteur extends Element
 {
+
+
+
     DOCTEUR (#NUMERO, SPECIALITE)
     create table docteur (
         numero decimal (4) primary key,

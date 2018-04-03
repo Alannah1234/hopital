@@ -9,7 +9,6 @@ public class Employe extends Element
 
     public Employe(int numero, String nom, String prenom, String telephone, String adresse)
     {
-
         this.numero = numero;
         this.nom = nom;
         this.prenom = prenom;
